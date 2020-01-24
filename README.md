@@ -35,12 +35,16 @@ Edit this document to include your answers after each question. Make sure to lea
 1. What is the difference between an adaptive website and a fully responsive website?
 
 2. Describe what it means to be mobile first vs desktop first.
+mobile first means you built the site using mobile as your first design and scaled up using min-width. Desktop first means you designed the desktop first it this case you you would scale down using max-width. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Using font-size 62.5% makes you font size 10 px and this makes it easier to use rem 1rem = 10px.
 
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is used to reduce the amount of code you have to right by nesting your code and using variables, mixins to also reduce the amount of code you have to write.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+I would say using mixins is my favorite preprocessing concept and I guess I have the most trouble with nesting.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

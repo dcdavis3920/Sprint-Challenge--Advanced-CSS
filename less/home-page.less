@@ -1,5 +1,7 @@
 // Home Content
-
+.main-header-pic{
+  .center2();
+}
 .home {
 
   .intro {
@@ -18,14 +20,36 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media(max-width: 500px){
+      .sky{
+        display:none;
+      }//closes sky
+
+    }//closes media
+    @media(max-width: 500px){
+      .launch{
+        display:none;
+      }//closes launch
+
+    }//closes media
+    @media(max-width: 500px){
+        .blast{
+          width:95%;
+        }
+    }//closes media
+
+    
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+     
+
+      
     }
-  }
+  }// closes space-images
 
   .visit-planets {
     padding: 15px;
@@ -45,6 +69,13 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media(max-width: 500px){
+      .center();
+      border:blue solid 2px;
+      .walk-text{
+        width:80%;
+      }//closes media
+    }//closes walk
 
     .walk-text {
       width: 50%;
@@ -64,6 +95,13 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media(max-width: 500px){
+        .sky{
+            width:90%;
+            border:red solid 2px;
+
+        }// closes media
+      }// closes walking
       
       img {
         width: 100%;
