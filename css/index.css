@@ -174,7 +174,7 @@ p {
   flex-direction: column-reverse;
   align-items: center;
   border: red solid 2px;
-  width: 60%;
+  width: 100%;
   margin: 3% auto;
 }
 @media (max-width: 500px) {
@@ -183,34 +183,13 @@ p {
   }
 }
 .spacewalkers .topnav {
-  border: blue solid 2px;
-  width: 55%;
   display: flex;
   justify-content: space-evenly;
+  width: 80%;
 }
 @media (max-width: 500px) {
   .spacewalkers .topnav {
-    width: 90%;
-  }
-}
-.spacewalkers .topnav2 {
-  border: red solid 2px;
-  width: 100%;
-}
-@media (wax-width: 500px) {
-  .spacewalkers .topnav2 {
-    margin: 0 auto;
-  }
-  .spacewalkers .topnav2 h2 {
-    margin: 0 auto;
-    border: red solid 2px;
-    display: flex;
-    align-items: center;
-  }
-}
-@media (max-width: 500px) {
-  .spacewalkers .topnav2 .topnav {
-    width: 80%;
+    width: 100%;
   }
 }
 footer {
@@ -295,17 +274,23 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  width: 70px;
+  background-color: blue;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: red;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-img .sky {
+  .home .walk .walk-img {
     width: 90%;
-    border: red solid 2px;
   }
 }
-.home .walk .walk-img img {
+.home .walk img {
   width: 100%;
   height: auto;
   border-radius: 10px;
